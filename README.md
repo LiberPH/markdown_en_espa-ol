@@ -1,9 +1,9 @@
-# Learn Markdown
+# Aprende Markdown
 
-You may have heard about Markdown, if you have it's a good thing.
+Probablemente has escuchado de Markdown.
 
-Markdown is a plain text formatting syntax designed so that it can optionally be converted to HTML.
+Markdown es una sintaxis de texto plano diseñada para que de manera opcional se pueda convertit a HTML.
 
-In this book, you'll learn how to write document using the markdown syntax.
+En este repo, aprenderás a escribir documentos con la sintaxis de Markdown.
 
 ![Example of markdown with associated output document on the right](./assets/preview.png)
