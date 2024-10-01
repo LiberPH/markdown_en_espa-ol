@@ -1,38 +1,38 @@
-# Code Blocks
+# Bloques de código
 
-Pre-formatted code blocks are used for writing about programming or markup source code. Rather than forming normal paragraphs, the lines of a code block are interpreted literally.
+Los bloques de código pre formateados se utilizan para introducir código. En lugar de formar párrafos normales de texto, Las líneas de un bloque de código son interpretadas de manera literal.
 
-Here is an example:
-
-```markdown
-This is a code block
-```
-
-To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab.
-
-For example:
+Ejemplo:
 
 ```markdown
-This is a normal paragraph:
-
-    This is a code block.
+# Este es un bloque de código
 ```
 
-You can also create code block separated by:
+Para producir un bloque de código en Markdown, simplemente indenta cada línea del bloque con al menos cuatro espacios o con un tab.
+
+Ejemplo:
+
+```markdown
+Este es un párrafo normal:
+
+    Este es un bloque de código.
+```
+
+También puedes crear bloques de código entre:
 
     ```
 
-### Inline code blocks
+### Código dentro de un párrafo
 
-Inline code blocks can be written using: `
+Puedes escribir código dentro de un párrafo usando: `
 
-For example:
+Ejemplo:
 
     This is a `inline code block`
 
-### Syntax highlighting
+### Tipo de sintaxis
 
-You can define the language to be used for syntax highlighting by adding the name on the opening tag. Example:
+Puedes definir el lenguaje cuyo tipo de sintaxis se va a mostrars añadiendo su nombre en las comillas de inicio. Ejemplo:
 
     ```javascript
     var a = {};
