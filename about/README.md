@@ -1,19 +1,19 @@
 # Short Introduction about Markdown
 
-The Markdown language was created in 2004 by John Gruber with substantial contributions from Aaron Swartz, with the goal of allowing people “to write using an easy-to-read, easy-to-write plain text format, and optionally convert it to structurally valid XHTML (or HTML)”.
+El lenguaje Markdown fue inventado en 2004 por John Gruber con la contribución de Aaron Swartz. Su objetivo era permitir que la gente “escribiera usando un formato de texto fácilde escribir y fácil de leer, y que opcionalmente se pudiera convertir con facilidad a  HTML”.
 
-Taking cues from existing conventions for marking up plain text in email such as setext, the language was designed to be readable as-is, without looking like it's been marked up with tags or formatting instructions, unlike text which has been formatted with a Markup language, such as HTML, which has obvious tags and formatting instructions. Markdown is a formatting syntax for text that can be read by humans and can be easily converted to HTML.
+El lenguaje fue diseñado para que se pudiera leer "tal como está", sin que se viera llenode etiquetas o instrucciones, de manera distinta a otros lenguajes Markup, como HTML, el cual tiene etiquetas muy obvias e instrucciones de formato . Markdown es una sintaxis de formato que puede ser leída facilmente por humanos y que también se puede convertir de manera sencilla a HTML.
 
-Gruber wrote a Perl script, Markdown.pl, which converts marked-up text input to valid, well-formed XHTML or HTML and replaces left-pointing angle brackets ('<') and ampersands with their corresponding character entity references. It can be used as a standalone script, as a plugin for Blosxom or Movable Type, or as a text filter for BBEdit.
+Gruber escribió un script de Perl, Markdown.pl, que convierte el texto de markdown a XHTML o HTML. It can be used as a standalone script, as a plugin for Blosxom or Movable Type, or as a text filter for BBEdit.
 
-Markdown has since been re-implemented by others as a Perl module available on CPAN (Text::Markdown), and in a variety of other programming languages. It is distributed under a BSD-style license and is included with, or available as a plugin for, several content-management systems.
+Desde entonces, Markdown se ha vuelto a implementra por otros como un módulo de Perl disponible en CPAN (Text::Markdown) y en una variedad de otros lenguajes de programación. Se distribuye con una licencia BSD-style license y está incluido en una gran variedad de content-management systems.
 
-### Use Cases
+### Casos de uso
 
-Markdown is used in **GitHub**, **GitBook**, **Reddit**, **Diaspora**, **Stack Overflow**, **OpenStreetMap**, and many others.
+**GitHub**, **GitBook**, **Reddit**, **Diaspora**, **Stack Overflow**, **OpenStreetMap**, y muchos otros, usan Markdown.
 
-Even this book is written using Markdown: [Raw content of this page](https://raw.githubusercontent.com/GitbookIO/markdown/master/about/README.md).
+Incluso esto está escrito usando Markdown: [Raw content of this page](https://raw.githubusercontent.com/GitbookIO/markdown/master/about/README.md).
 
-### Files
+### Archivos
 
-A markdown document is a text file with the `.md` extension. You can open a markdown file using a simple text editor.
+Un documento Markdown es un archivo de texto plano con la extensión `.md`. Puedes abrir un archivo de Markdown con cualquier editor de texto.
