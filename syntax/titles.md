@@ -7,12 +7,13 @@ Markdown permite dos estilos de "headers", Setext y atx.
 Los encabezados con estilo Setext están “subrayados” usando signos de igual (para los encabezados de primer nivel o títulos) y guiones bajos (para los ecabezados de segundo nivel). Ejemplo:
 
 
+```markdown
 This is an H1
 =============
 
 This is an H2
 -------------
-
+```
 
 Cualquier número de =’s o -’s funciona.
 
