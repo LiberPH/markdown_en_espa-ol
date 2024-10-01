@@ -1,11 +1,11 @@
 # Listas
 
 Puedes crear una lista sin ordenar. Para ello, coloca -, * o + antes de una o más líneas de texto.
-´´´
+```markdown
 - George Washington
 * John Adams
 + Thomas Jefferson
-´´´
+```
 - George Washington
 * John Adams
 + Thomas Jefferson
