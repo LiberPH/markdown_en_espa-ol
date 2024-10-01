@@ -1,4 +1,4 @@
-# Short Introduction about Markdown
+# Breve introducción a Markdown
 
 El lenguaje Markdown fue inventado en 2004 por John Gruber con la contribución de Aaron Swartz. Su objetivo era permitir que la gente “escribiera usando un formato de texto fácilde escribir y fácil de leer, y que opcionalmente se pudiera convertir con facilidad a  HTML”.
 
