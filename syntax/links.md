@@ -1,10 +1,16 @@
-# Links
+# Ligas
 
-Markdown supports two styles of links: inline and reference.
+En Markdown puedes añadir dos tipos de ligas: dentro del párrafo y referencias.
 
-In both styles, the link text is delimited by [square brackets].
+En ambos estilos, la liga está delimitada por [corchetes cuadrados].
 
-To create an inline link, use a set of regular parentheses immediately after the link text’s closing square bracket. Inside the parentheses, put the URL where you want the link to point, along with an optional title for the link, surrounded in quotes. For example:
+1Para crear una liga en el párrafo:
+1. Dentro de los corchetes cuadrados, escribe el texto que ligará a un sitio web o URL.
+2. Inmediatamente después, escribe un par de paréntesis regulares.
+3. Dentro de los paréntesis, pega el URL al cual quieres que paunte la liga.
+4. Opcional: añade título opcional para la liga entre comillas.
+
+Ejemplos:
 
 ```markdown
 [I'm an inline-style link](https://www.google.com)
@@ -16,22 +22,24 @@ To create an inline link, use a set of regular parentheses immediately after the
 [I'm a relative reference to a repository file](../blob/master/LICENSE)
 ```
 
-Reference-style links use a second set of square brackets, inside which you place a label of your choosing to identify the link:
-
+Las ligas de referencia usan un segundo par de corchetes cuadrados. Dentro de ellos se coloca una etiqueta de tu elección para identificar la liga.
 ```markdown
 This is [an example][id] reference-style link.
 ```
 
-You can optionally use a space to separate the sets of brackets:
+Puedes usar un espacio para separar ambos pares de corchetes cuadrados:
 
 ```markdown
 This is [an example] [id] reference-style link.
 ```
 
-Then, anywhere in the document, you define your link label like this, on a line by itself:
+Luego, en cualquier parte del documento (de preferencia al final), define la estiqueta de tu referencia de la siguiente manera:
 
 ```markdown
 [id]: http://example.com/ "Optional Title Here"
 ```
+Debe abarcar una sola línea por etiqueta.
 
-**GitHub** and **GitBook** supports URL autolinking. They will autolink standard URLs, so if you want to link to a URL (instead of setting link text), you can simply enter the URL and it will be turned into a link to that URL.
+**GitHub** y **GitBook** pueden autogenerar ligas para URLs estándar. 
+
+https://www.google.com 
