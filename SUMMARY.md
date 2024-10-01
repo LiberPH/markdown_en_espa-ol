@@ -1,8 +1,8 @@
-# Summary
+# Contenidos
 
-- [About Markdown](about/README.md)
-- [Titles](syntax/titles.md)
-- [Links](syntax/links.md)
-- [Images](syntax/images.md)
-- [Code Blocks](syntax/code.md)
-- [Tables](syntax/tables.md)
+- [Acerca de Markdown](about/README.md)
+- [Encabezados](syntax/titles.md)
+- [Hipervínculos](syntax/links.md)
+- [Imágenes](syntax/images.md)
+- [Bloques de código](syntax/code.md)
+- [Tablas](syntax/tables.md)
