@@ -1,10 +1,10 @@
-# Titles
+# Encabezados
 
-As we started writing a markdown document, we need to add a title and some sub-headers.
+Lo primero que necesitamos al escribir un texto en markdown son un título y algunos sub-headers.
 
-Markdown supports two styles of headers, Setext and atx.
+Markdown permite dos estilos de "headers", Setext y atx.
 
-Setext-style headers are “underlined” using equal signs (for first-level headers) and dashes (for second-level headers). For example:
+Los encabezados con estilo Setext están “subrayados” usando signos de igual (para los encabezados de primer nivel o títulos) y guiones bajos (para los ecabezados de segundo nivel). Ejemplo:
 
 ```markdown
 This is an H1
@@ -14,24 +14,24 @@ This is an H2
 -------------
 ```
 
-Any number of underlining =’s or -’s will work.
+Cualquier número de =’s o -’s funciona.
 
-Atx-style headers use 1-6 hash characters at the start of the line, corresponding to header levels 1-6. For example:
+el estilo Atx usa de 1-6 caracteres de gato (o número) al inicio de cada línea, los cuales corresponden a los niveles del uno al seis. Por ejemplo:
 
 ```markdown
-# This is an H1
+# Este es un H1
 
-## This is an H2
+## Este es un H2
 
-###### This is an H6
+###### Este es un H6
 ```
 
-Optionally, you may “close” atx-style headers. This is purely cosmetic — you can use this if you think it looks better. The closing hashes don’t even need to match the number of hashes used to open the header. (The number of opening hashes determines the header level.) :
+De manera opcional, puedes “cerrar” los encabezados atx. Esto es meramente cosmético — puedes usarlo si crees que se ve mejor. Los "gatos" al final no tienen que coincidir con los que están al inciio. (El número de gatos que abre es el que determina el nivel del encabezado.) :
 
 ```markdown
-# This is an H1 #
+# Este es un H1 #
 
-## This is an H2 ##
+## Este es un H2 ##
 
-### This is an H3 ######
+### Este es un H3 ######
 ```
