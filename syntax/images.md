@@ -1,17 +1,19 @@
-# Images
+# Imágenes
 
 ```markdown
-# Inline
+# En línea con el texto
 
 ![Alternative text](/path/to/img.jpg "Optional title")
 
-# Reference
+# Referencias
 
 ![Alternative text][id]
 [id]: url/to/image "Optional title"
 ```
 
-As you may have noticed, images in Markdown are very similar to links. The difference is that:
+Como habrás notado,  las imágeness en Markdown son muy parecidas a las ligas. Se diferencían en que:
 
-- the square brackets must be prefixed with an exclamation mark and
-- inside they may have some alternative text. A description of the image, which is displayed if the image can't be loaded.
+- Los corchetes cuadrados debes estar precedidos por un signo de exclamación
+- El texto alternativo se despliega si por alguna razón no se puede cargar la imagen
+
+**Nota:** Es una buena práctica siempre incluir un texto alternativo para personas débiles visuales
